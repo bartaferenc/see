@@ -1,0 +1,44 @@
+body{
+    background-color: #1A1B1F;
+    background-image: url(img/menushine.png);
+    background-position-x: center;
+    background-position-y: 200px;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2.5vh;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.servers{
+  color: white;
+  text-align: center;
+  
+  height: 37.5vh;
+  width: 30vh;  
+  background-color: #23272A;
+  
+}
+img{
+    width: 16vh;
+    height: 14vh;
+}
+button{
+    background-color: #3CB882;
+    color: white;
+    font-weight: bold;
+    width: 28vh;
+    height: 4vh;
+    border: none;
+}
+button:hover{
+    opacity: 0.9;
+}
+
+.bottom{
+    display: block;
+}
